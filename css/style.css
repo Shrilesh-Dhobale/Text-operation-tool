@@ -39,3 +39,8 @@ body{
     border-radius: 5px;
     border: 1px solid #ccc;
 }
+#title{
+    text-align: center;
+    color: white;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
