@@ -14,3 +14,9 @@ const reverseCase = () => {
 const textLength = () => {
     outputElement.innerText = `Output: ${inputElement.value.length}`;
 }
+const wordCount = () => {
+
+}
+const clearText=() =>{
+    
+}
