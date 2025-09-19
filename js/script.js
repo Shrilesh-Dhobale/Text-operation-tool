@@ -15,6 +15,9 @@ const textLength = () => {
     outputElement.innerText = `Output: ${inputElement.value.length}`;
 }
 const wordCount = () => {
+    const words = inputElement.value.split(" ");
+    outputElement.innerText = `Output: ${words.length}`;
+
 
 }
 const clearText=() =>{
