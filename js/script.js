@@ -9,7 +9,7 @@ const lowerCase =() =>{
     outputElement.innerText = `Output: ${inputElement.value.toLowerCase()}`;
 }
 const reverseCase = () => {
-
+    outputElement.innerText = `Output: ${inputElement.value.split('').reverse().join('')}`;
 }
 const textLength = () => {
     outputElement.innerText = `Output: ${inputElement.value.length}`;
