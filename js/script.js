@@ -11,4 +11,6 @@ const lowerCase =() =>{
 const reverseCase = () => {
 
 }
-const 
+const textLength = () => {
+    outputElement.innerText = `Output: ${inputElement.value.length}`;
+}
