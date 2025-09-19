@@ -5,3 +5,7 @@ const upperCase = () => {
     outputElement.innerText = `Output: ${inputElement.value.toUpperCase()}`;
 
 }
+const lowerCase = () => {
+    outputElement.innerText = `Output: ${inputElement.value.toLowerCase()}`;
+
+}
