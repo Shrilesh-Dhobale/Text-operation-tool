@@ -1,4 +1,17 @@
-.body{
+body{
     margin:0;
     padding:0;
+    background-color: black;
+}
+.btn-containers{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 10px;
+    background-color: grey;
+    padding: 20px;
+    width: 500px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(58, 56, 56, 0.5);
+    margin:200px auto;
 }
