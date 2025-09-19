@@ -18,5 +18,7 @@ const wordCount = () => {
 
 }
 const clearText=() =>{
-    
+    inputElement.value = '';
+    outputElement.innerText = '';
+
 }
